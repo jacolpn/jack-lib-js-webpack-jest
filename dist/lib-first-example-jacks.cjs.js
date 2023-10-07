@@ -1,12 +1,10 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
-// const linguagens = require('./linguagens-de-programacao.json')
-
-// module.exports = { all: linguagens };
+var linguagens = require('./src/linguagens-de-programacao.json');
 var capitalize = function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 };
-
-exports.capitalize = capitalize;
+module.exports = {
+  linguagens: linguagens,
+  capitalize: capitalize
+};

@@ -1,18 +1,33 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["agm-awesome-utils-tutorial"] = {}));
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+    typeof define === 'function' && define.amd ? define(['exports'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["agm-awesome-utils-tutorial"] = {}));
 })(this, (function (exports) { 'use strict';
 
-	// const linguagens = require('./linguagens-de-programacao.json')
+    var linguagensDeProgramacao = /*#__PURE__*/Object.freeze({
+        __proto__: null
+    });
 
-	// module.exports = { all: linguagens };
-	var capitalize = function capitalize(word) {
-	  return word.charAt(0).toUpperCase() + word.slice(1);
-	};
+    function getCjsExportFromNamespace (n) {
+    	return n && n['default'] || n;
+    }
 
-	exports.capitalize = capitalize;
+    var linguagens = getCjsExportFromNamespace(linguagensDeProgramacao);
 
-	Object.defineProperty(exports, '__esModule', { value: true });
+    var capitalize = function capitalize(word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    };
+    var libFirst = {
+      linguagens: linguagens,
+      capitalize: capitalize
+    };
+    var libFirst_1 = libFirst.linguagens;
+    var libFirst_2 = libFirst.capitalize;
+
+    exports.capitalize = libFirst_2;
+    exports["default"] = libFirst;
+    exports.linguagens = libFirst_1;
+
+    Object.defineProperty(exports, '__esModule', { value: true });
 
 }));

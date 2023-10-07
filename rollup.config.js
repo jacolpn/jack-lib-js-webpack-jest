@@ -6,7 +6,7 @@ import pkg from "./package.json";
 
 export default [
     {
-        input: "src/index.js", // your entry point
+        input: "index.js", // your entry point
         output: {
             name: "agm-awesome-utils-tutorial", // package name
             file: pkg.browser,
@@ -21,7 +21,7 @@ export default [
         ],
     },
     {
-        input: "src/index.js", // your entry point
+        input: "index.js", // your entry point
         output: [
             { file: pkg.main, format: "cjs" },
             { file: pkg.module, format: "es" },
