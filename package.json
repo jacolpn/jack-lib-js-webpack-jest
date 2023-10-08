@@ -11,14 +11,14 @@
   "keywords": ["test"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacolpn/lib-first.git"
+    "url": "git+https://github.com/jacolpn/jack-lib-js-webpack-jest.git"
   },
   "author": "jacolpn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacolpn/lib-first/issues"
+    "url": "https://github.com/jacolpn/jack-lib-js-webpack-jest/issues"
   },
-  "homepage": "https://github.com/jacolpn/lib-first#readme",
+  "homepage": "https://github.com/jacolpn/jack-lib-js-webpack-jest#readme",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
