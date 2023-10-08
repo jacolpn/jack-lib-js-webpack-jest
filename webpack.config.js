@@ -7,7 +7,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'index.min.js',
     libraryTarget: 'umd',
-    library: 'OnLeaveIntent'
+    library: 'LibFirst'
   },
   module: {
     rules: [

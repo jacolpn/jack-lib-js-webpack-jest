@@ -1,7 +1,7 @@
 {
   "name": "lib-first-example-jacks",
-  "version": "2.2.2",
-  "description": "First library",
+  "version": "2.2.3",
+  "description": "First library by Jack",
   "main": "dist/index.min.js",
   "scripts": {
     "build": "webpack",

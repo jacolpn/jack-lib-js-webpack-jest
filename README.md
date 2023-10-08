@@ -1,37 +1,38 @@
-# lib-first-example-jacks
-> A script to detect if the user is leaving the page after some time and calls a function.
+# First library by Jack
+
+A simple library for print console log.
 
 ## Installing
 
-Install the library via `npm install lib-first-example-jacks`.
+Install the library by `npm install lib-first-example-jacks`.
 
 ## How to use
 
 If you used npm, just import the file:
 
 ```js
-import OnLeaveIntent from 'lib-first-example-jacks';
+  import { Console } from 'lib-first-example-jacks';
 ```
 
 And now you can use it like:
 
 ```js
-function callback() {
-  console.log('A function to be called when user leaves the page');
-}
-
-const delay = 1000; // time in milliseconds defined to start tracking the user
-
-const onLeaveIntent = new OnLeaveIntent(callback, delay);
+  Console(message)
 ```
 
 ## Testing
 
-You can see the tests, use `npm run test` to run the tests. If you want to see an example working on the Browser, just run `npm run start`.
+You can see the tests, use `npm run test` to run the tests.
+If you want to see an example working on the Browser, just run `npm run start`.
 
-## Commands
+## Commands utilized
 - npm i
+- npm add --dev @babel/core@7.3.4 @babel/plugin-proposal-class-properties@7.3.4 @babel/preset-env@7.3.4 babel-loader@8.0.5
+- npm add --dev babel-eslint@10.0.1 eslint@5.15.0 eslint-config-standard@12.0.0 eslint-plugin-import@2.16.0 eslint-plugin-node@8.0.1 eslint-plugin-promise@4.0.1 eslint-plugin-standard@4.0.0
+- npm add --dev prettier@1.16.4
+- npm add --dev jest@24.1.0 babel-jest@24.1.0
+- npm add --dev webpack@4.29.6 webpack-cli@3.2.3 webpack-dev-server@3.2.1
 
-## npm commands
+## NPM commands
 - npm login
 - npm publish
