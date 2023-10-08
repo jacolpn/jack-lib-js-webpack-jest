@@ -11,7 +11,7 @@ Install the library by `npm install lib-first-example-jacks`.
 If you used npm, just import the file:
 
 ```js
-  import { Console } from 'lib-first-example-jacks';
+  import Console from 'lib-first-example-jacks';
 ```
 
 And now you can use it like:

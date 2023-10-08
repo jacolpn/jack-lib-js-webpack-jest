@@ -1,4 +1,4 @@
-import { Console } from '.';
+import Console from '.';
 
 describe('Index', () => {
   it('should run the console log', () => {

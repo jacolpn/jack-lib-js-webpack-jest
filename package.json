@@ -1,6 +1,6 @@
 {
   "name": "lib-first-example-jacks",
-  "version": "2.2.3",
+  "version": "2.2.8",
   "description": "First library by Jack",
   "main": "dist/index.min.js",
   "scripts": {
