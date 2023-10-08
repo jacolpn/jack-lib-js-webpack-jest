@@ -1,7 +1,7 @@
 {
-  "name": "lib-first-example-jacks",
+  "name": "jack-lib-js-webpack-jest",
   "version": "2.2.8",
-  "description": "First library by Jack",
+  "description": "A library JS with webpack and jest",
   "main": "dist/index.min.js",
   "scripts": {
     "build": "webpack",

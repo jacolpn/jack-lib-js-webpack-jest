@@ -1,17 +1,18 @@
 # First library by Jack
 
 A simple library for print console log.
+With webpack and jest configured.
 
 ## Installing
 
-Install the library by `npm install lib-first-example-jacks`.
+Install the library by `npm install jack-lib-js-webpack-jest`.
 
 ## How to use
 
 If you used npm, just import the file:
 
 ```js
-  import Console from 'lib-first-example-jacks';
+  import Console from 'jack-lib-js-webpack-jest';
 ```
 
 And now you can use it like:
