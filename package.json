@@ -2,14 +2,13 @@
   "name": "lib-first-example-jacks",
   "version": "2.0.1",
   "description": "First library",
-  "main": "dist/lib-first-example-jacks.cjs.js",
-  "module": "dist/lib-first-example-jacks.esm.js",
-  "browser": "dist/lib-first-example-jacks.umd.js",
+  "main": "dist/index.min.js",
   "scripts": {
-    "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pretest": "npm run build"
+    "build": "webpack",
+    "test": "jest",
+    "start": "webpack-dev-server"
   },
+  "keywords": ["test"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacolpn/lib-first.git"
@@ -21,13 +20,22 @@
   },
   "homepage": "https://github.com/jacolpn/lib-first#readme",
   "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/preset-env": "^7.22.20",
-    "rollup": "^2.79.1",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  },
-  "files": ["dist", "src"],
-  "typings": "index.d.ts"
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.1.0",
+    "prettier": "1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
 }
