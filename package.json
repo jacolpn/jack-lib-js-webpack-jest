@@ -1,6 +1,6 @@
 {
   "name": "jack-lib-js-webpack-jest",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A library JS with webpack and jest",
   "main": "dist/index.min.js",
   "scripts": {
